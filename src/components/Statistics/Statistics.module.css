@@ -1,0 +1,25 @@
+.statisticsList {
+  background-color: #e0e3e8;
+  margin: 0;
+  padding: 30px 50px 30px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.statisticsItem {
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #364f6a;
+}
+
+.statisticsItem:last-child {
+  margin-bottom: 0px;
+}
+
+.statisticsItemText {
+  margin: 0;
+}
